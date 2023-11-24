@@ -1,0 +1,61 @@
+/* custom-alert.css */
+
+body {
+    font-family: 'Your Preferred Font', sans-serif;
+    line-height: 1.6;
+}
+
+.alert-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.alert {
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alert-title {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.alert-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.alert-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.alert-actions button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alert-actions button.primary {
+    background-color: #000;
+    color: #fff;
+}
+
+.alert-actions button.secondary {
+    background-color: #ccc;
+    color: #000;
+}

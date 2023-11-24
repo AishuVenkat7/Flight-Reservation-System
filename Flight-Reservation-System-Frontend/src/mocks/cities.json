@@ -1,0 +1,22 @@
+[
+  {"id": "1", "name": "Mumbai", "state": "Maharashtra"},
+  {"id": "2", "name": "New Delhi", "state": "New Delhi"},
+  {"id": "3", "name": "Bengaluru", "state": "Karnataka"},
+  {"id": "4", "name": "Kolkata", "state": "West Bengal"},
+  {"id": "5", "name": "Ahemdabad", "state": "Gujarat"},
+  {"id": "6", "name": "Jaipur", "state": "Rajasthan"},
+  {"id": "7", "name": "Chennai", "state": "Tamil Nadu"},
+  {"id": "8", "name": "Hyderabad", "state": "Telangana"},
+  {"id": "9", "name": "Kochi", "state": "Kerala"},
+  {"id": "10", "name": "Pune", "state": "Maharashtra"},
+  {"id": "11", "name": "Goa", "state": "Goa"},
+  {"id": "12", "name": "Chandigarh", "state": "Chandigarh"},
+  {"id": "13", "name": "Amritsar", "state": "Punjab"},
+  {"id": "14", "name": "Bhubaneswar", "state": "Odisha"},
+  {"id": "15", "name": "Thiruvananthapuram", "state": "Kerala"},
+  {"id": "16", "name": "Kozhikode", "state": "Kerala"},
+  {"id": "17", "name": "Lucknow", "state": "Uttar Pradesh"},
+  {"id": "18", "name": "Ranchi", "state": "Jharkhand"},
+  {"id": "19", "name": "Siliguri", "state": "West Bengal"},
+  {"id": "20", "name": "Tirupati", "state": "Andhra Pradesh"}
+]

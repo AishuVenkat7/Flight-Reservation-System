@@ -1,0 +1,15 @@
+.MuiTabs-indicator {
+  background-color: #000000 !important; /* Replace 'your-desired-color' with the color you want */
+  height: 3px; /* Set the height of the indicator */
+  /* Additional styles if needed */
+}
+
+.PrivateTabIndicator-colorSecondary-3 {
+  background-
+  color: #000000;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #000000;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Search</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Flight Search</h1>
+    <div class="row justify-content-center mt-3">
+      <div class="col-6">
+        <form>
+          <div class="form-group">
+            <label for="tripType">Trip Type</label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="tripType" value="one" id="oneWay">
+              <label class="form-check-label" for="oneWay">One Way</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="tripType" value="both" id="roundTrip" checked>
+              <label class="form-check-label" for="roundTrip">Round Trip</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="source">Source City</label>
+            <input type="text" class="form-control" id="source" placeholder="Source City">
+          </div>
+          <div class="form-group">
+            <label for="destination">Destination City</label>
+            <input type="text" class="form-control" id="destination" placeholder="Destination City">
+          </div>
+          <div class="form-group">
+            <label for="journeyDate">Journey Date</label>
+            <input type="date" class="form-control" id="journeyDate">
+          </div>
+          <div class="form-group" id="returnDateContainer">
+            <label for="returnDate">Return Date</label>
+            <input type="date" class="form-control" id="returnDate">
+          </div>
+          <button type="button" class="btn btn-primary" id="searchFlight" disabled>Search Flight</button>
+        </form>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2>Flight Search Results</h2>
+        <div id="flightList"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("oneWay").addEventListener("change", function() {
+      document.getElementById("returnDateContainer").style.display = "none";
+      document.getElementById("returnDate").value = "";
+    });
+    document.getElementById("roundTrip").addEventListener("change", function() {
+      document.getElementById("returnDateContainer").style.display = "block";
+    });
+    document.getElementById("source").addEventListener("input", checkCityError);
+    document.getElementById("destination").addEventListener("input", checkCityError);
+    function checkCityError() {
+      const sourceCity = document.getElementById("source").value;
+      const destinationCity = document.getElementById("destination").value;
+      const cityError = document.getElementById("cityError");
+      const searchFlightButton = document.getElementById("searchFlight");
+      if (sourceCity === destinationCity) {
+        cityError.style.display = "block";
+        searchFlightButton.disabled = true;
+      } else {
+        cityError.style.display = "none";
+        searchFlightButton.disabled = false;
+      }
+    }
+    checkCityError();
+  </script>
+</body>
+</html>

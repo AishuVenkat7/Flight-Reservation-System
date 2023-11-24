@@ -1,0 +1,67 @@
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .content-container {
+    flex: 1;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .bon-voyage-image {
+    border-radius: 8px;
+    padding: 60px 25px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content-container {
+    flex: 2;
+  }
+  
+  .about-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text,
+  .intro-text,
+  .story-text,
+  .sets-apart-text,
+  .mission-text,
+  .join-us-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .story-header,
+  .sets-apart-header,
+  .mission-header,
+  .join-us-header {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .sets-apart-section {
+    margin-bottom: 20px;
+  }
+  
+  .sets-apart-subheader {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .separator {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  

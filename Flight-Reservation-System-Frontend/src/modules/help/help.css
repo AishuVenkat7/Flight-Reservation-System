@@ -1,0 +1,28 @@
+/* help.css */
+
+/* Global styles or reset styles if needed */
+
+.formControl {
+    width: 60%;
+    margin-bottom: theme.spacing(5);
+  }
+  
+  .textarea {
+    width: 60%;
+    height: 300px;
+    margin-bottom: theme.spacing(5);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    margin-top: theme.spacing(2);
+    margin-left: theme.spacing(-4);
+    background-color: #4caf50;
+    color: #fff;
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  

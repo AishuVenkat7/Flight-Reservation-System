@@ -1,0 +1,24 @@
+/* home.css */
+.tab {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .tab:hover {
+    background-color: #eee;
+  }
+  
+  .tab.active {
+    border-color: transparent; 
+    background-color: #ddd;
+}
+
+.MuiTabs-indicator {
+    background-color: #000000 !important; 
+  }
+

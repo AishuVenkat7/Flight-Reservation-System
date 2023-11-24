@@ -1,0 +1,112 @@
+[
+  {
+    "flightNumber": "6E-278",
+    "airlineName": "Indigo",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "departureTime": "20:00",
+    "departure": "Mumbai",
+    "arrivalTime": "22:00",
+    "arrival": "New Delhi",
+    "noOfStops": "0",
+    "price": "4355"
+  },
+  {
+    "flightNumber": "6E-274",
+    "airlineName": "Indigo",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "departureTime": "16:00",
+    "departure": "Mumbai",
+    "arrivalTime": "18:00",
+    "arrival": "New Delhi",
+    "noOfStops": "0",
+    "price": "6355"
+  },
+  {
+    "flightNumber": "6E-275",
+    "airlineName": "Indigo",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "departureTime": "15:00",
+    "departure": "Mumbai",
+    "arrivalTime": "17:00",
+    "arrival": "New Delhi",
+    "noOfStops": "0",
+    "price": "10355"
+  },
+  {
+    "flightNumber": "6E-275",
+    "airlineName": "Indigo",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "departureTime": "15:00",
+    "departure": "Mumbai",
+    "arrivalTime": "17:00",
+    "arrival": "Kolkata",
+    "noOfStops": "1",
+    "price": "2522"
+  },
+  {
+    "flightNumber": "AI-275",
+    "airlineName": "Air India",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "departureTime": "03:00",
+    "departure": "Mumbai",
+    "arrivalTime": "05:00",
+    "arrival": "Jaipur",
+    "noOfStops": "0",
+    "price": "1500"
+  },
+  {
+    "flightNumber": "AI-275",
+    "airlineName": "Air India",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "departureTime": "04:00",
+    "departure": "Mumbai",
+    "arrivalTime": "06:00",
+    "arrival": "Bengaluru",
+    "noOfStops": "0",
+    "price": "3600"
+  },
+  {
+    "flightNumber": "AI-275",
+    "airlineName": "Air India",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "departureTime": "03:00",
+    "departure": "Mumbai",
+    "arrivalTime": "05:00",
+    "arrival": "Kolkata",
+    "noOfStops": "0",
+    "price": "1500"
+  },
+  {
+    "flightNumber": "AI-275",
+    "airlineName": "Air India",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "departureTime": "04:00",
+    "departure": "Mumbai",
+    "arrivalTime": "06:00",
+    "arrival": "Bengaluru",
+    "noOfStops": "0",
+    "price": "3600"
+  },
+  {
+    "flightNumber": "AI-266",
+    "airlineName": "Air India",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "departureTime": "04:00",
+    "departure": "Kolkata",
+    "arrivalTime": "06:00",
+    "arrival": "Bengaluru",
+    "noOfStops": "0",
+    "price": "5988"
+  },
+  {
+    "flightNumber": "6E-279",
+    "airlineName": "Indigo",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "departureTime": "16:00",
+    "departure": "Kolkata",
+    "arrivalTime": "22:00",
+    "arrival": "Mumbai",
+    "noOfStops": "2",
+    "price": "4355"
+  }
+]

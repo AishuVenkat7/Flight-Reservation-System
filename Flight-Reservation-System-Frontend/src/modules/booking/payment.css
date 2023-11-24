@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.flight-details-container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.form__div {
+    position: relative;
+    padding: 2px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    pointer-events: none;
+}
+
+.form-control {
+    font-size: 14px;
+    border: 1px solid #ccc; /* Changed border color */
+    outline: 0;
+    padding: 10px; /* Adjusted padding */
+    width: calc(100% - 20px);
+    margin-bottom: 10px; /* Adjusted margin */
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.form-control:focus {
+    border-color: #333; /* Highlight border color on focus */
+}
+
+.form-control:focus + .form__label,
+.form-control:valid + .form__label {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #333;
+}

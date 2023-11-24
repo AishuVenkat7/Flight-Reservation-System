@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Your Preferred Font', sans-serif;
+    line-height: 1.6;
+}
+
+body, html {
+    height: 100%;
+}
+
+.seat-selection-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.class-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.seat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.seat-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.seat {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7e0f7;
+    color: #000;
+    border: 2px solid #9cbad4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 10px;
+}
+
+.seat:hover {
+    background-color: #bfbfbf;
+}
+
+.selected {
+    background-color: #2ecc71;
+    border-color: #27ae60;
+    pointer-events: none;
+}
+
+.seat.booked {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    pointer-events: none;
+}
+
+.seat-row {
+    margin-bottom: 20px;
+}
+
+.confirm-button {
+    background-color: #000;
+    color: #fff;
+}
+
+.h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

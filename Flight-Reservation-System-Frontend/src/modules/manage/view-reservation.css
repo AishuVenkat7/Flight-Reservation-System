@@ -1,0 +1,128 @@
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: linear-gradient(180deg, #f5f5f5, #e0e0e0); */
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+}
+
+.confirmation-table {
+  width: 70%;
+  margin: 20px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-table-row,
+.confirmation-table-header {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.confirmation-table-header {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.confirmation-table .first-column {
+  width: 20%;
+  font-size: 14px;
+}
+
+.confirmation-table .second-column {
+  width: 45%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+}
+
+
+.confirmation-button {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirmation-button:hover {
+  background-color: #333;
+}
+
+.confirmation-h4 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Add this to your existing CSS */
+
+.alert-title {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.alert-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.alert-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.alert-actions button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size for better visibility */
+}
+
+.alert-actions button.primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.alert-actions button.secondary {
+  background-color: #ccc;
+  color: #000;
+}
+
+.MuiDialog-paper {
+  width: 400px; /* Set the width of the dialog */
+  border-radius: 10px;
+}
+
+.MuiDialogTitle-root {
+  text-align: center;
+  font-size: 20px;
+}
+
+.MuiDialogContent-root {
+  padding: 16px;
+  text-align: center;
+}
