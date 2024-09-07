@@ -66,7 +66,8 @@ Landing page is `home.jsx`, add all routes in it
 <img width="794" alt="Screenshot 2024-09-06 at 8 42 52 PM" src="https://github.com/user-attachments/assets/0d267a51-81ae-49d9-b9bd-77dce6a367d3">
 <img width="794" alt="Screenshot 2024-09-06 at 8 43 39 PM" src="https://github.com/user-attachments/assets/4565c2ec-10e3-4afa-b4b6-9689e07f2227">
 <img width="794" alt="Screenshot 2024-09-06 at 8 44 03 PM" src="https://github.com/user-attachments/assets/af68a561-eae2-4ec1-87b0-4c5b9d06f231">
-<img width="794" alt="Screenshot 2024-09-06 at 8 44 27 PM" src="https://github.com/user-attachments/assets/21e90766-6fdb-48ab-9bb9-20f8a1ef8786">
+<img width="794" alt="Screenshot 2024-09-06 at 8 46 13 PM" src="https://github.com/user-attachments/assets/5af4c851-d60a-419b-a41d-28ecef6baed6">
+
 
 
 
