@@ -24,8 +24,8 @@ The Flight Reservation System is a robust software solution designed to optimize
 This system is built using a layered architecture that includes controllers and services promoting modular development and scalability. The usecase and ER diagrams in our documentation provide a clear picture of the system's structure and workflow.
 
 <img width="572" alt="image" src="https://github.com/user-attachments/assets/c4768660-8232-4cf8-b31c-436ea3870c56">
-![image](https://github.com/user-attachments/assets/a22418b6-af8a-467c-9d96-4df9492996a0)
-![entity-relationship-diagram drawio](https://github.com/user-attachments/assets/7809f95b-1b35-41e4-86b3-ff4fe7286456)
+<img width="479" alt="Screenshot 2024-09-06 at 8 37 49 PM" src="https://github.com/user-attachments/assets/8a784b72-54bb-4d57-bf1f-5c2771d92ff8">
+<img width="802" alt="Screenshot 2024-09-06 at 8 37 03 PM" src="https://github.com/user-attachments/assets/1035bc27-b595-4f9f-8987-f9706b236eda">
 
 # Installation and Setup Instructions
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
