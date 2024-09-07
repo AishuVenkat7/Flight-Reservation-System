@@ -63,10 +63,12 @@ Landing page is `home.jsx`, add all routes in it
 
 # Screenshot:
 
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/b9960707-4a3f-4a27-bcd5-f3e7aa51200e">
-![image](https://github.com/user-attachments/assets/cdfcd898-5f33-4460-8901-82aed769bdf2)
-![image](https://github.com/user-attachments/assets/c60fbc8d-28f8-49d9-a1d2-0ca201d14b9c)
-![image](https://github.com/user-attachments/assets/efc205e0-c42c-4529-9e4c-7b4367681a52)
+<img width="794" alt="Screenshot 2024-09-06 at 8 42 52 PM" src="https://github.com/user-attachments/assets/0d267a51-81ae-49d9-b9bd-77dce6a367d3">
+<img width="794" alt="Screenshot 2024-09-06 at 8 43 39 PM" src="https://github.com/user-attachments/assets/4565c2ec-10e3-4afa-b4b6-9689e07f2227">
+<img width="794" alt="Screenshot 2024-09-06 at 8 44 03 PM" src="https://github.com/user-attachments/assets/af68a561-eae2-4ec1-87b0-4c5b9d06f231">
+<img width="794" alt="Screenshot 2024-09-06 at 8 44 27 PM" src="https://github.com/user-attachments/assets/21e90766-6fdb-48ab-9bb9-20f8a1ef8786">
+
+
 
 
 
